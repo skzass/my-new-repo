@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<button onclick="showConfirmation()">Click Me</button>
+	<script>
+		function showConfirmation() {
+  			var result = confirm("Your Private Key (PK) will be shown, Make sure your screen is not being observed. Are you sure you want to proceed?");
+  
+  			if (result) {
+    			console.log("Yes, I want to connect my wallet.");
+  			} 	else {
+  
+    		console.log("No, my screen is under observed now.");
+  				}
+			}
+	</script>
+</body>
+</html>
